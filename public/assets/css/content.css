@@ -1,0 +1,54 @@
+.content{
+    
+    width: 85%;
+    margin: auto;
+    padding: 30px;    
+    height: 100%;
+    margin-top:70px;
+    margin-bottom: 25px;
+
+
+}
+
+/** Chamados **/
+.novos_chamados{
+
+    width: 22%;
+    height: 100%;
+    background-color: #E2E4E6;
+    padding: 10px;
+    float:left;
+    margin-right: 5px;
+    border-radius: 5px;
+
+}
+
+.chamados_em_andamento{
+
+    width: 22%;
+    height: 100%;
+    background-color: #E2E4E6;
+    padding: 10px;
+    float:left;
+    margin-right: 5px;
+    border-radius: 5px;
+
+}
+
+.chamados_resolvidos{
+
+    width: 22%;
+    height: 100%;
+    background-color:#E2E4E6;
+    padding: 10px;
+    float:left;
+    border-radius: 5px;
+
+}
+
+.card_aberto{
+  width: 100%;
+  height: 150px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}

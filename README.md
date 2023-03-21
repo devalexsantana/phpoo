@@ -1,2 +1,0 @@
-# phpoo
-Projeto PHP OO

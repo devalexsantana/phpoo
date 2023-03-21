@@ -1,10 +1,26 @@
-<?php 
+<?php
 
-require_once('../vendor/autoload.php');
-require_once('../app/functions/function.php');
 
-use app\controller\TesteController;
-(new \app\core\RouterCore());
+if (preg_match('/\.(?:png|jpg|jpeg|gif)$/', $_SERVER["REQUEST_URI"])) {
+    return false;    // serve the requested resource as-is.
+} else {
+      session_start();
 
-$controller = new TesteController();
+
+      define('DEFAULT_CONTROLLER', 'home');
+      define('DEFAULT_METHOD', 'index');
+      //define('HOST', 'public/');
+      
+      
+
+      require("../vendor/autoload.php");
+      require("../app/Functions/functions_twig.php");
+      require("../public/bootstrap/bootstrap.php");
+
+
+ //Aula 29
+
+}
+
+
 
